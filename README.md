@@ -13,6 +13,9 @@
     2. Tích hợp sẵn vào laravel
     3. Đơn giản, lõi nhỏ gọn tối đa với với khả năng tương thích cao có thể xây dựng ứng dụng ở mọi quy mô
   * jQuery: 
+    1. Truy xuất các phần của trang: không cần một thư viện javascript nào, bạn có thể duyệt cây DOM (Document Object Model) và đến các vị trí đặc biệt  của cấu trúc tài liệu HTML. jQuery cung cấp một cơ chế chọn lựa hoàn hảo để lấy chính xác các thành phần của tài liệu để kiểm tra hoặc xử lý.
+    2. Tạo hiệu ứng và thay đổi sự hiển thị của trang: jQuery có thể thay đổi nội dung của tài liệu như văn bản, hình ảnh, danh sách,… đồng thời thêm những hiệu ứng giao diện như làm mờ dần, kéo nhỏ các thành phần,… chỉ với vài dòng lệnh đơn giản.
+    3. Lấy thông tin từ server theo cơ chế bất đồng bộ: đây chính là những hỗ trợ của jQuery để giúp các lập trình viên làm việc với Ajax dễ dàng hơn. Với jQuery bạn không còn cần phải quan tâm đến trình duyệt nào sẽ được sử dụng.
 * ReactJS, Jquery, Angular khác nhau như thế nào:
 * Trình bày về Floats và cách chúng hoạt động:
 * Trình bày về z-index và làm thế nào để nội dung stack với nhau được định hình:
