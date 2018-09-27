@@ -22,14 +22,20 @@
     
  * ReactJS, Jquery, Angular khác nhau như thế nào:
 
-    1. Angular: Render tại clien và server, Data binding 2 chiều, Hỗ trợ ngôn ngữ: TypeScript, CoffeeScript, Javascript
-    2. React: Render tại server, Data binding 1 chiều, Hỗ trợ ngôn ngữ: JSX, JavaScript, TypeScript
-    3. jQuery là thư viện để thao tác với DOM 
+    * Angular: Render tại clien và server, Data binding 2 chiều, Hỗ trợ ngôn ngữ: TypeScript, CoffeeScript, Javascript
+    * React: Render tại server, Data binding 1 chiều, Hỗ trợ ngôn ngữ: JSX, JavaScript, TypeScript
+    * jQuery là thư viện để thao tác với DOM 
 * Trình bày về Floats và cách chúng hoạt động:
-   1. Có ba giá trị của float hay sử dụng nhất đó là:
+   * Có ba giá trị của float hay sử dụng nhất đó là:
 
-    * left: Nằm phía bên trái
-    * right: Nằm phía bên phải
-    * none: Nằm tại chính vị trí của nó (trạng thái bình thường)
+    1. left: Nằm phía bên trái
+    2. right: Nằm phía bên phải
+    3. none: Nằm tại chính vị trí của nó (trạng thái bình thường)
 * Trình bày về z-index và làm thế nào để nội dung stack với nhau được định hình:
+    * Thuộc tính z-index được sinh ra nhằm giải quyết cấp độ hiển thị của các thẻ HTML lên trình duyệt Browser, hay nói cách khác z-index giống như đánh số thứ tự hiển thị, thẻ nào có z-index cao thì nằm phía trên và thẻ nào có z-index thấp thì nằm phía dưới.
+     1. Bạn chỉ thiết lập z-index được cho các thẻ có khai báo position:absolute.
+     2. Giá trị của z-index là một con số (âm hoặc dương).
+     3. Hai thẻ có cùng z-index thì sẽ tuân theo quy luật thẻ nào nằm dưới thì được hiển thị phía trên, thẻ con sẽ nằm trên thẻ cha.
+     4. Giá trị z-index mặc định của các thẻ HTML là 1, vì vậy các thẻ HTML thông thường nếu nằm phía dưới thì nó sẽ đè thẻ phía trên.
 * Giải thích về CSS sprites và làm thế nào để bạn thực hiện chúng trên một trang web:
+  * CSS Image Sprites (hay gọi tắt là CSS Sprites) do Dave Shea đề nghị lần đầu năm 2004. Thuật ngữ “Sprites” thực ra là kỹ thuật đưa tất cả các hình ảnh trang trí như các icon hay button đặt vào một file hình duy nhất. Sau đó dùng thuộc tính background-position của CSS để hiện ra đúng vị trí cần thiết. Cách này cũng thường được áp dụng với các hiệu ứng hover, active hay focus để tạo các nút bấm động một cách mượt mà hơn hoặc để chứa các icon trang trí. Và một điều có lẽ các bạn có thể không để ý đến. Đó là mạng xã hội lớn nhất Facebook đang sử dụng kỹ thuật này để hiển thị các icon.
