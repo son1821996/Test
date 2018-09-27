@@ -8,6 +8,9 @@
     2. Khi bạn sử dụng Bootstrap bạn hoàn toàn có thể tùy biến được giao diện theo ý muốn của cá nhân bạn. Với hệ thống Grid System đã mặc định bao gồm 12 bột cùng với độ rộng 940px được tích hợp sẵn ở Bootstrap.
     3. Ngày nay, khi mà xu hướng phát triển website tương thích được với các  thiết bị thì Bootstrap. Bootstrap nổi lên như một Framework có sẵn reponsive css  phù hợp với mọi thiết bị như SmartPhone, tablets, dextop…vv..
   * ReactJS: 
+    1. Reactjs cực kì hiệu quả: Reactjs tạo ra cho chính nó DOM ảo – nơi mà các component thực sự tồn tại trên đó. Điều này sẽ giúp cải thiện hiệu suất rất nhiều. Reactjs cũng tính toán những thay đổi nào cần cập nhật len DOM và chỉ thực hiện chúng. Điều này giúp Reactjs tránh những thao tác cần trên DOM mà nhiều chi phí. Chúng ta có thể viết một ví dụ đơn giản về ReactJS như sau.
+    2. Làm việc với vấn đề test giao diện: Nó cực kì dễ để viết các test case giao diện vì virtual DOM được cài đặt hoàn toàn bằng JS.
+    3. Hiệu năng cao đối với các ứng dụng có dữ liệu thay đổi liên tục, dễ dàng cho bảo trì và sửa lỗi.
   * VueJS: 
     1. Thích hợp tạo các Single-page Application
     2. Tích hợp sẵn vào laravel
@@ -18,5 +21,10 @@
     3. Lấy thông tin từ server theo cơ chế bất đồng bộ: đây chính là những hỗ trợ của jQuery để giúp các lập trình viên làm việc với Ajax dễ dàng hơn. Với jQuery bạn không còn cần phải quan tâm đến trình duyệt nào sẽ được sử dụng.
 * ReactJS, Jquery, Angular khác nhau như thế nào:
 * Trình bày về Floats và cách chúng hoạt động:
+   1. Có ba giá trị của float hay sử dụng nhất đó là:
+
+    * left: Nằm phía bên trái
+    * right: Nằm phía bên phải
+    * none: Nằm tại chính vị trí của nó (trạng thái bình thường)
 * Trình bày về z-index và làm thế nào để nội dung stack với nhau được định hình:
 * Giải thích về CSS sprites và làm thế nào để bạn thực hiện chúng trên một trang web:
